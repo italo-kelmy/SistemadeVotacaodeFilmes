@@ -1,24 +1,33 @@
-Entre nesse link para testar a api: 
-https://www.postman.com/italokelmy/workspace/apifilm/request/44774411-5221e837-29ac-4652-b692-afe80011a04b?action=share&creator=44774411&ctx=documentation
+Você pode testar todos os endpoints diretamente pelo Postman:
 
-//Para ver todos os filmes
-https://sistemadevotacaodefilmes-1.onrender.com/filmes
+🔗 Acessar workspace no Postman
 
-//Para votar em um filme pelo id
-https://sistemadevotacaodefilmes-1.onrender.com/filmes/votacao
+🌐 Endpoints Disponíveis
+Listar todos os filmes:
+GET https://sistemadevotacaodefilmes-1.onrender.com/filmes
 
-/Para ver o Ranking dos filme mais votado
-https://sistemadevotacaodefilmes-1.onrender.com/filmes/votacao/ranking
+Votar em um filme (por ID):
+POST https://sistemadevotacaodefilmes-1.onrender.com/filmes/votacao
 
-Sistema de Votação de filmes
-Descrição: API para criar enquetes e registrar votos.
+Envie no corpo da requisição o ID do filme e o identificador do usuário.
 
-Tecnologias: Spring Boot, JPA
+Ranking dos filmes mais votados:
+GET https://sistemadevotacaodefilmes-1.onrender.com/filmes/votacao/ranking
 
-Recursos:
+🛠 Tecnologias Utilizadas
+Java
 
-Criar enquetes.
+Spring Boot
 
-Votar (uma vez por usuário).
+Spring Data JPA
 
-Resultados em tempo real.
+Banco de dados relacional (ex: PostgreSQL ou H2)
+
+Deploy via Render
+
+📌 Funcionalidades
+📋 Criação de enquetes de filmes
+
+🗳 Votação (restrita a um voto por usuário)
+
+📊 Visualização de ranking em tempo real
