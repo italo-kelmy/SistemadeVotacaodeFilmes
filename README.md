@@ -4,7 +4,7 @@ https://www.postman.com/italokelmy/workspace/apifilm/request/44774411-5221e837-2
 //Para ver todos os filmes
 https://sistemadevotacaodefilmes-1.onrender.com/filmes
 
-//Para votar em um filme filme
+//Para votar em um filme filme pelo id
 https://sistemadevotacaodefilmes-1.onrender.com/filmes/votacao
 
 /Para ver o Ranking dos filme mais votado
